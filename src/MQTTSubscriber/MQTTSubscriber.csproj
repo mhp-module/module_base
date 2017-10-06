@@ -51,14 +51,13 @@
     <Reference Include="fastJSON">
       <HintPath>..\packages\fastJSON.2.1.23\lib\net40\fastJSON.dll</HintPath>
     </Reference>
-    <Reference Include="IFunction">
-      <HintPath>..\packages\MHPInterface.0.2.0\x64\IFunction.dll</HintPath>
+    <Reference Include="IProc, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MHPInterface.0.2.0\lib64\IProc.dll</HintPath>
     </Reference>
-    <Reference Include="IProc">
-      <HintPath>..\packages\MHPInterface.0.2.0\x64\IProc.dll</HintPath>
-    </Reference>
-    <Reference Include="IValue">
-      <HintPath>..\packages\MHPInterface.0.2.0\x64\IValue.dll</HintPath>
+    <Reference Include="IValue, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MHPInterface.0.2.0\lib64\IValue.dll</HintPath>
     </Reference>
     <Reference Include="M2Mqtt.Net">
       <HintPath>..\packages\M2Mqtt.4.3.0.0\lib\net45\M2Mqtt.Net.dll</HintPath>

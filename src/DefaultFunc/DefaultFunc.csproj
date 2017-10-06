@@ -48,17 +48,19 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IFunction">
-      <HintPath>..\packages\MHPInterface.0.2.0\x64\IFunction.dll</HintPath>
+    <Reference Include="IFunction, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MHPInterface.0.2.0\lib64\IFunction.dll</HintPath>
     </Reference>
-    <Reference Include="IValue">
-      <HintPath>..\packages\MHPInterface.0.2.0\x64\IValue.dll</HintPath>
+    <Reference Include="IValue, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MHPInterface.0.2.0\lib64\IValue.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
